@@ -1,0 +1,22 @@
+////////////////////////////////////Snake////////////////////////////////////
+
+tipos de objetos
+
+Tipo 1: Comida
+Este tipo de objetos aumenta tu puntuacion y aumenta la dificultad del juego
+
+tipo 2: Venenos
+Este tipo de objetos te asesina si tienes una puntuacion menor a 20 y mayor a 20 te elimina la mitad de la salud.
+
+Tamaño serpiente<10 = Muerte.
+Tamaño serpiente>10 = Reducir el tamaño a la mitad.
+
+tipo 3: Alentizadores
+Este tipo realentiza la velocidad del juego un 10% y para aparecer debes cumplir varios criterios.
+1. tener mas de 20 en puntuacion
+2. no debe haber ningun otro activo
+3. aleateoriamente se activara este objeto si cumples  los dos primeros puntos pero no el tercero
+4. este tipo de objetos duran x tiempo solamente. es aleatoria entre 9 y 20 movimientos.
+5. una vez activado un objeto de este tipo, no volvera a aparecer en el 1.5 del tiempo que se halla establecido de duracion del objeto.
+
+
